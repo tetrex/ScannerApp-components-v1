@@ -43,7 +43,7 @@ class DocCard extends StatelessWidget {
                     child: Text(
                       "14 June,2021",
                       style: TextStyle(
-                          color: Colors.white,
+                          color: Colors.white70,
                           fontSize: 12,
                           fontFamily: "Segoe UI"),
                     ),

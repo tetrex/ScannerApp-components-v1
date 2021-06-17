@@ -33,13 +33,13 @@ class SearchBar extends StatelessWidget {
             ),
           ),
           Container(
-            padding: EdgeInsets.only(left: 4, right: 4),
+            padding: EdgeInsets.only(left: 6, right: 4),
             height: 120,
             width: 330,
             child: TextField(
               controller: searchController,
               decoration: InputDecoration(
-                hintStyle: TextStyle(fontSize: 17),
+                hintStyle: TextStyle(fontSize: 20),
                 hintText: "Search...",
                 border: InputBorder.none,
               ),

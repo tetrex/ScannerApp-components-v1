@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ver1/FontSelectionCard.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Color(0xff08182A),
       body: Center(
-        child: Text("ahsdb"),
+        child: FontSelectionCard(),
       ),
     );
   }
